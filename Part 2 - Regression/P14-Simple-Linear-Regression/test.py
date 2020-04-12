@@ -17,4 +17,4 @@ load_lr_model =pickle.load(open(filename, 'rb'))
 
 yettopredict = np.array([[10.9]])
 y_pred = load_lr_model.predict(yettopredict)
-print(y_pres[0][0])
+print(np.array(y_pred[0]))
